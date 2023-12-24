@@ -1,6 +1,6 @@
 {
-  "name": "@bbao/test",
-  "version": "0.0.3",
+  "name": "starter-ts",
+  "version": "0.0.0",
   "packageManager": "pnpm@8.7.5",
   "description": "Starter Template for Ts Lib",
   "type": "module",
@@ -33,9 +33,8 @@
     "check": "tsc --noEmit",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp && pnpm publish",
-    "preinstall": "npx only-allow pnpm",
-    "postinstall": "simple-git-hooks",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@bbao/prettier-config": "^0.0.2",
