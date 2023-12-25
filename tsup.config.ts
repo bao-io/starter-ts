@@ -7,5 +7,5 @@ export default defineConfig({
   clean: true,
   splitting: true,
   cjsInterop: true,
-  dts: true
+  dts: true,
 })
